@@ -23,7 +23,7 @@ my $builder = Module::Build->new(
     meta_merge => {
         resources => {
             repository =>
-                'http://github.com/periapt/HTML-Acid/tree',
+                'http://github.com/periapt/HTML-Acid',
         },
         keywords => [ 'HTML', 'Clean', 'XSS', 'end tags', 'YUI rich text editor' ],
     },
